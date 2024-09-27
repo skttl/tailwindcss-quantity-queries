@@ -41,8 +41,8 @@ module.exports = {
 
 You can now use the plugin's variants in your HTML classes. The plugin supports the following syntax for selecting elements based on their child count:
 
-- Less Than: `children-[<3]` — Applies styles if the parent has more than 2 children.
-- Greater Than: `children-[>5]` — Applies styles if the parent has less than 6 children.
+- Less Than: `children-[<3]` — Applies styles if the parent has less than 3 children.
+- Greater Than: `children-[>5]` — Applies styles if the parent has more than 5 children.
 - Exact Count: `children-[3]` — Applies styles if the parent has exactly 3 children.
 - Range: `children-[2-5]` — Applies styles if the parent has between 2 and 5 children.
 
