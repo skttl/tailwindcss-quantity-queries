@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": ["DOM"],
+    "declaration": true,
+    "removeComments": false,
+    "incremental": false,
+    "baseUrl": "src/",
+    "outDir": "dist/"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

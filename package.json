@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-quantity-queries",
+  "description": "Variants for using quantity queries with Tailwind CSS",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Søren Kottal"
+  },
+  "scripts": {
+    "start": "tsc -p tsconfig.json --watch --preserveWatchOutput",
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.7.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  }
+}
